@@ -9,7 +9,7 @@ export default function Footer() {
         href="/team"
         className="font-medium text-orange-600"
       >
-        Our Team
+        {/* Our Team */}
       </Link>
     </footer>
   )

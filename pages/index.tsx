@@ -29,6 +29,7 @@ export default function Gallery({ }) {
               ref={coffeeRef}
             >
               Crafted by us, for you
+              {/* Baddam-Saxena */}
             </p>
           </div>
         </div>

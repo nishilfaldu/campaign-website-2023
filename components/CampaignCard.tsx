@@ -41,7 +41,7 @@ export default function CampaignCard({campaignPoint}) {
         <p>{campaignPoint.id}</p>
       </div>
       <p className="mt-1 text-sm italic text-gray-500">
-        {campaignPoint.shortDescription}
+        {/* {campaignPoint.shortDescription} */}
       </p>
     </Link>
     </div>
