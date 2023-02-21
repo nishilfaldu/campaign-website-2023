@@ -1,9 +1,15 @@
+import { StaticImageData } from "next/image";
+import cvg_shuttle from "../public/images/cvg_shuttle.jpg";
+import tax_classes from "../public/images/tax_classes.jpg";
+import career_services from "../public/images/career_services.jpg"; 
+
 export type dataType = {
     id: number;
     name: string;
     shortDescription: string;
     shortNote: string;
-    imgURL: string;
+    // imgURL: string;
+    imgURL: StaticImageData;
     longDescription: string;
 }[]
 
@@ -13,7 +19,7 @@ export const campaignPoints : dataType = [
         name: "Free CVG Shuttle",
         shortDescription: "Short Description",
         shortNote: "5",
-        imgURL: "/../public/images/cvg_shuttle.jpg",
+        imgURL: cvg_shuttle,
         longDescription: "Free shutles to and from campus and airport for all students at the beginning and end of each semester",
 
     },
@@ -22,7 +28,7 @@ export const campaignPoints : dataType = [
         name: "Tax Classes",
         shortDescription: "Short Description",
         shortNote: "5",
-        imgURL: "/../public/images/tax_classes.jpg",
+        imgURL: tax_classes,
         longDescription: "Bringing in experts to teach and assist students in filing their taxes",
     },
     {
@@ -30,7 +36,7 @@ export const campaignPoints : dataType = [
         name: "Career Services Orientation",
         shortDescription: "Short Description",
         shortNote: "5",
-        imgURL: "/../public/images/career_services.jpg",
+        imgURL: career_services,
         longDescription: "An orientation every semester for the incoming and exisiting international students to assist in navigating job opportunities and understanding CPT-OPT policies best suited to their needs",
     },
     // {
