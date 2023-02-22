@@ -26,6 +26,8 @@ export default function Product({ campaignPoint }) {
               Description
             </div>
             <p className="max-w-xl">{campaignPoint.longDescription}</p>
+            <div></div>
+            <div></div>
           </div>
         </div>
       </div>
