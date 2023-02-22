@@ -2,6 +2,7 @@ import { StaticImageData } from "next/image";
 import cvg_shuttle from "../public/images/cvg_shuttle.jpg";
 import tax_classes from "../public/images/tax_classes.jpg";
 import career_services from "../public/images/career_services.jpg"; 
+import syllabus_bank from "../public/images/syllabus_bank.jpg"; 
 
 export type dataType = {
     id: number;
@@ -39,14 +40,14 @@ export const campaignPoints : dataType = [
         imgURL: career_services,
         longDescription: "An orientation every semester for the incoming and exisiting international students to assist in navigating job opportunities and understanding CPT-OPT policies best suited to their needs",
     },
-    // {
-    //     id: 4,
-    //     name: "Syllabus Bank",
-    //     shortDescription: "Short Description",
-    //     shortNote: "5",
-    //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
-    //     longDescription: "A compilation of the syllabi of different courses from different professors in all colleges to help students better pick their classes",
-    // },
+    {
+        id: 4,
+        name: "Syllabus Bank",
+        shortDescription: "Short Description",
+        shortNote: "5",
+        imgURL: syllabus_bank,
+        longDescription: "A compilation of the syllabi of different courses from different professors in all colleges to help students better pick their classes",
+    },
     // {
     //     id: 5,
     //     name: "Halal Friendly Food Courts",
