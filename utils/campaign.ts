@@ -2,7 +2,8 @@ import { StaticImageData } from "next/image";
 import cvg_shuttle from "../public/images/cvg_shuttle.jpg";
 import tax_classes from "../public/images/tax_classes.jpg";
 import career_services from "../public/images/career_services.jpg"; 
-import syllabus_bank from "../public/images/syllabus_bank.jpg"; 
+import syllabus_bank from "../public/images/syllabus_bank.jpg";
+import food_courts from "../public/images/food_courts.jpg";  
 
 export type dataType = {
     id: number;
@@ -48,14 +49,14 @@ export const campaignPoints : dataType = [
         imgURL: syllabus_bank,
         longDescription: "A compilation of the syllabi of different courses from different professors in all colleges to help students better pick their classes",
     },
-    // {
-    //     id: 5,
-    //     name: "Halal Friendly Food Courts",
-    //     shortDescription: "Short Description",
-    //     shortNote: "5",
-    //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
-    //     longDescription: "Food courts that accommodate the diverse food preferences of our student body such as halal meat and kosher food",
-    // },
+    {
+        id: 5,
+        name: "Inclusive Food Courts",
+        shortDescription: "Short Description",
+        shortNote: "5",
+        imgURL: food_courts,
+        longDescription: "Food courts that accommodate the diverse food preferences of our student body such as halal meat and kosher food",
+    },
     // {
     //     id: 6,
     //     name: "Your Platform",
