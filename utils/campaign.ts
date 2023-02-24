@@ -3,7 +3,9 @@ import cvg_shuttle from "../public/images/cvg_shuttle.jpg";
 import tax_classes from "../public/images/tax_classes.jpg";
 import career_services from "../public/images/career_services.jpg"; 
 import syllabus_bank from "../public/images/syllabus_bank.jpg";
-import food_courts from "../public/images/food_courts.jpg";  
+import food_courts from "../public/images/food_courts.jpg"; 
+import workers_union from "../public/images/workers_union.jpg";  
+import campus_wifi from "../public/images/campus_wifi.jpg";
 
 export type dataType = {
     id: number;
@@ -65,14 +67,14 @@ export const campaignPoints : dataType = [
     //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
     //     longDescription: "We believe that every student at UC has many wonderful ideas and changes they want to see implemented. Here's the chance to do so! Moreover it's your right to demand what you want!",
     // },
-    // {
-    //     id: 7,
-    //     name: "Workers Union",
-    //     shortDescription: "Short Description",
-    //     shortNote: "5",
-    //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
-    //     longDescription: "Forming a workers' union to represent the student workers at UC and to help them voice their concerns and needs",
-    // },
+    {
+        id: 6,
+        name: "Workers Union",
+        shortDescription: "Short Description",
+        shortNote: "5",
+        imgURL: workers_union,
+        longDescription: "Forming a workers' union to represent the student workers at UC and to help them voice their concerns and needs",
+    },
     // {
     //     id: 8,
     //     name: "Housing Crisis",
@@ -81,14 +83,14 @@ export const campaignPoints : dataType = [
     //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
     //     longDescription: "Many students, especially with the increase in enrollment at UC, are facing a lot of difficulties finding on-campus housing. We want to bring in more on-campus housing options and not let any of our students miss out on the college dorm experience!",
     // },
-    // {
-    //     id: 9,
-    //     name: "Upgrading Campus Wifi",
-    //     shortDescription: "Short Description",
-    //     shortNote: "5",
-    //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
-    //     longDescription: "The slow and unreliable wifi on campus has been a constant problem for us. We want to upgrade the Wifi infrastructure and provide our students with the best possible conditions to work on campus.",
-    // },
+    {
+        id: 7,
+        name: "Upgrading Campus Wifi",
+        shortDescription: "Short Description",
+        shortNote: "5",
+        imgURL: campus_wifi,
+        longDescription: "The slow and unreliable wifi on campus has been a constant problem for us. We want to upgrade the Wifi infrastructure and provide our students with the best possible conditions to work on campus.",
+    },
     // {
     //     id: 10,
     //     name: "Bearcat Fest",
