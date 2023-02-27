@@ -28,7 +28,8 @@ export default function Gallery({ }) {
               className="mt-1 text-4xl font-bold uppercase text-gray-900 sm:text-5xl sm:tracking-tight lg:text-5xl"
               ref={coffeeRef}
             >
-              Crafted by us, for you
+              Crafted by us, for you<br/>
+              VOTE FOR BADDAM-SAXENA
               {/* Baddam-Saxena */}
             </p>
           </div>
