@@ -28,15 +28,15 @@ export default function Header({ scrollHandler }) {
               <span className="block text-orange-500"></span>
             </h1>
 
-            <div className="mx-auto mt-10 max-w-xs sm:flex sm:max-w-none sm:justify-center gap-2">
-              {/* <button
-                className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-orange-600 shadow-sm hover:bg-orange-100 sm:px-8"
-                onClick={scrollHandler}
-              >
-                VOTE
-              </button> */}
+            <div className="flex mx-auto mt-10 max-w-xs sm:flex sm:max-w-none sm:justify-center gap-2">
               <button
-                className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-orange-600 shadow-sm hover:bg-orange-100 sm:px-8"
+                className="items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-orange-600 shadow-sm hover:bg-orange-100 sm:px-8"
+                // onClick={scrollHandler}
+              >
+                <a href="https://campuslink.uc.edu/submitter/election/start/579743" target="_blank">VOTE</a>
+              </button>
+              <button
+                className="items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-orange-600 shadow-sm hover:bg-orange-100 sm:px-8"
                 // onClick={scrollHandler}
               >
                 <a href="https://www.instagram.com/baddamsaxena/" target="_blank">INSTAGRAM</a>
