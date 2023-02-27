@@ -29,7 +29,7 @@ export default function Gallery({ }) {
               ref={coffeeRef}
             >
               Crafted by us, for you<br/>
-              VOTE FOR BADDAM-SAXENA
+              VOTE FOR DHATHRUTHV BADDAM-DEVANSH SAXENA
               {/* Baddam-Saxena */}
             </p>
           </div>
