@@ -39,6 +39,7 @@ export default function Product({ campaignPoint }) {
                 A Pageant show to crown the Mr. & Ms. UC and a closing award ceremony to commemorate the winners of various competitions during the week</p>
                 <p><strong>Day 5: A Concert</strong><br/>
                 A concert by a famous artist for our students to have a good time and mark the end of the fest.</p>
+                <br/><iframe width="560" height="315" src="https://www.youtube.com/embed/7F_Zu0VtEtk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
               )
             }
