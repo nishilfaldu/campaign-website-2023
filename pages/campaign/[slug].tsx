@@ -25,7 +25,23 @@ export default function Product({ campaignPoint }) {
             <div className="mt-10 mb-5 border-t border-gray-200 pt-10 font-bold">
               Description
             </div>
-            <p className="max-w-xl">{campaignPoint.longDescription}</p>
+            <p className="max-w-xl">{campaignPoint.longDescription}</p><br/>
+            {
+              campaignPoint.id === 8 &&
+              (<div>
+                <p><strong>Day 1: Diversity Day</strong><br/>
+                An opportunity for students from different communities to set up stalls and showcase their culture through dances, clothing, food, etc.</p>
+                <p><strong>Day 2: Reverse Career Fair</strong><br/>
+                Imagine a casual career fair out in the open where, instead of you giving your elevator pitch, the company talks to you about their values, mission, and why you should join them</p>
+                <p><strong>Day 3: College of the Year</strong><br/>
+                A set of contests between the selected representatives of every college to take part in to win the trophy for their college</p>
+                <p><strong>Day 4: A Pageant Show & Award Ceremony</strong><br/>
+                A Pageant show to crown the Mr. & Ms. UC and a closing award ceremony to commemorate the winners of various competitions during the week</p>
+                <p><strong>Day 5: A Concert</strong><br/>
+                A concert by a famous artist for our students to have a good time and mark the end of the fest.</p>
+              </div>
+              )
+            }
             <div></div>
             <div></div>
           </div>

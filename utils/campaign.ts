@@ -6,13 +6,13 @@ import syllabus_bank from "../public/images/syllabus_bank.jpg";
 import food_courts from "../public/images/food_courts.jpg"; 
 import workers_union from "../public/images/workers_union.jpg";  
 import campus_wifi from "../public/images/campus_wifi.jpg";
+import bearcat_fest from "../public/images/bearcat_fest.jpg";
 
 export type dataType = {
     id: number;
     name: string;
     shortDescription: string;
     shortNote: string;
-    // imgURL: string;
     imgURL: StaticImageData;
     longDescription: string;
 }[]
@@ -91,12 +91,12 @@ export const campaignPoints : dataType = [
         imgURL: campus_wifi,
         longDescription: "The slow and unreliable wifi on campus has been a constant problem for us. We want to upgrade the Wifi infrastructure and provide our students with the best possible conditions to work on campus.",
     },
-    // {
-    //     id: 10,
-    //     name: "Bearcat Fest",
-    //     shortDescription: "Short Description",
-    //     shortNote: "5",
-    //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
-    //     longDescription: "A week long fest in which students and faculty can let loose and engage in activities related to an overarching theme of the day. Imagine UC's campus, like a state fair, filled with stalls where students can play games, eat snacks, and watch performances",
-    // }, 
+    {
+        id: 8,
+        name: "Bearcat Fest",
+        shortDescription: "Short Description",
+        shortNote: "5",
+        imgURL: bearcat_fest,
+        longDescription: `A week long fest in which students and faculty can let loose and engage in activities related to an overarching theme of the day. Imagine UC's campus, like a state fair, filled with stalls where students can play games, eat snacks, and watch performances`,
+    }, 
 ]
