@@ -7,6 +7,9 @@ import food_courts from "../public/images/food_courts.jpg";
 import workers_union from "../public/images/workers_union.jpg";  
 import campus_wifi from "../public/images/campus_wifi.jpg";
 import bearcat_fest from "../public/images/bearcat_fest.jpg";
+import night_lyft from "../public/images/night_lyft.jpg";
+import housing_crisis from "../public/images/housing_crisis.jpg";
+import your_platform_point from "../public/images/your_platform_point.jpg";
 
 export type dataType = {
     id: number;
@@ -59,32 +62,32 @@ export const campaignPoints : dataType = [
         imgURL: food_courts,
         longDescription: "Food courts that accommodate the diverse food preferences of our student body such as halal meat and kosher food",
     },
-    // {
-    //     id: 6,
-    //     name: "Your Platform",
-    //     shortDescription: "Short Description",
-    //     shortNote: "5",
-    //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
-    //     longDescription: "We believe that every student at UC has many wonderful ideas and changes they want to see implemented. Here's the chance to do so! Moreover it's your right to demand what you want!",
-    // },
     {
         id: 6,
+        name: "Your Platform",
+        shortDescription: "Short Description",
+        shortNote: "5",
+        imgURL: your_platform_point,
+        longDescription: "We believe that every student at UC has many wonderful ideas and changes they want to see implemented. Here's the chance to do so! Moreover it's your right to demand what you want!",
+    },
+    {
+        id: 7,
         name: "Workers Union",
         shortDescription: "Short Description",
         shortNote: "5",
         imgURL: workers_union,
         longDescription: "Forming a workers' union to represent the student workers at UC and to help them voice their concerns and needs",
     },
-    // {
-    //     id: 8,
-    //     name: "Housing Crisis",
-    //     shortDescription: "Short Description",
-    //     shortNote: "5",
-    //     imgURL: "https://assets.revolutionuc.com/website-images/2023/photos/2x/home-1.png",
-    //     longDescription: "Many students, especially with the increase in enrollment at UC, are facing a lot of difficulties finding on-campus housing. We want to bring in more on-campus housing options and not let any of our students miss out on the college dorm experience!",
-    // },
     {
-        id: 7,
+        id: 8,
+        name: "Housing Crisis",
+        shortDescription: "Short Description",
+        shortNote: "5",
+        imgURL: housing_crisis,
+        longDescription: "Many students, especially with the increase in enrollment at UC, are facing a lot of difficulties finding on-campus housing. We want to bring in more on-campus housing options and not let any of our students miss out on the college dorm experience!",
+    },
+    {
+        id: 9,
         name: "Upgrading Campus Wifi",
         shortDescription: "Short Description",
         shortNote: "5",
@@ -92,11 +95,19 @@ export const campaignPoints : dataType = [
         longDescription: "The slow and unreliable wifi on campus has been a constant problem for us. We want to upgrade the Wifi infrastructure and provide our students with the best possible conditions to work on campus.",
     },
     {
-        id: 8,
+        id: 10,
         name: "Bearcat Fest",
         shortDescription: "Short Description",
         shortNote: "5",
         imgURL: bearcat_fest,
         longDescription: `A week long fest in which students and faculty can let loose and engage in activities related to an overarching theme of the day. Imagine UC's campus, like a state fair, filled with stalls where students can play games, eat snacks, and watch performances`,
+    },
+    {
+        id: 11,
+        name: "Night Ride Lyft Program",
+        shortDescription: "Short Description",
+        shortNote: "5",
+        imgURL: night_lyft,
+        longDescription: `We all miss the presence of night ride and the convenience it used to give. As a result, we would want to partner with Lyft to give special discounts to UC students at night`,
     }, 
 ]

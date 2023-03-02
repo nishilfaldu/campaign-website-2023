@@ -27,7 +27,7 @@ export default function Product({ campaignPoint }) {
             </div>
             <p className="max-w-xl">{campaignPoint.longDescription}</p><br/>
             {
-              campaignPoint.id === 8 &&
+              campaignPoint.id === 10 &&
               (<div>
                 <p><strong>Day 1: Diversity Day</strong><br/>
                 An opportunity for students from different communities to set up stalls and showcase their culture through dances, clothing, food, etc.</p>
